@@ -61,11 +61,33 @@ async function downloadAssets() {
   let completed = 0;
   let next = 0;
   let failed = false;
+  const partialBytes = new Map();
   const update = () => {
-    progress.value = 100 * completedBytes / totalBytes;
+    const readyBytes = completedBytes + Array.from(partialBytes.values()).reduce((sum, bytes) => sum + bytes, 0);
+    progress.value = 100 * readyBytes / totalBytes;
     status.textContent = `Preparing app files: ${completed} of ${manifest.assets.length}`;
-    detail.textContent = `${(completedBytes / 1048576).toFixed(1)} of ${(totalBytes / 1048576).toFixed(1)} MB ready. Keep this tab open; downloaded files are saved for later visits.`;
+    detail.textContent = `${(readyBytes / 1048576).toFixed(1)} of ${(totalBytes / 1048576).toFixed(1)} MB ready. Keep this tab open; downloaded files are saved for later visits.`;
   };
+  async function downloadParts(asset, signal) {
+    const data = new Uint8Array(asset.bytes);
+    let partIndex = 0;
+    let received = 0;
+    async function downloadPart() {
+      while (partIndex < asset.parts.length) {
+        const part = asset.parts[partIndex++];
+        const response = await fetch(part.path, {signal});
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const bytes = new Uint8Array(await response.arrayBuffer());
+        if (bytes.byteLength !== part.bytes) throw new Error("Incomplete download part");
+        data.set(bytes, part.offset);
+        received += bytes.byteLength;
+        partialBytes.set(asset.path, received);
+        update();
+      }
+    }
+    await Promise.all(Array.from({length: 4}, downloadPart));
+    return new Response(data, {headers: {"Content-Type": "application/octet-stream"}});
+  }
   update();
   async function download() {
     while (!failed && next < manifest.assets.length) {
@@ -73,12 +95,14 @@ async function downloadAssets() {
       let success = false;
       for (let attempt = 0; attempt < 3 && !success; attempt++) {
         const controller = new AbortController();
-        const timeout = setTimeout(() => controller.abort(), 90000);
+        const timeout = setTimeout(() => controller.abort(), Math.max(90000, 30000 + asset.bytes / 32768 * 1000));
         try {
           const localUrl = new URL(asset.path, location.href).href;
           const cached = attempt === 0 ? await cache.match(localUrl) : null;
           const source = asset.mirror && attempt < 2 ? asset.mirror : localUrl;
-          const response = cached || await fetch(source, {signal: controller.signal});
+          const response = cached || (asset.parts
+            ? await downloadParts(asset, controller.signal)
+            : await fetch(source, {signal: controller.signal}));
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           const data = await response.arrayBuffer();
           if (data.byteLength !== asset.bytes) throw new Error("Incomplete or outdated file");
@@ -95,6 +119,8 @@ async function downloadAssets() {
           }
           success = true;
         } catch (error) {
+          controller.abort();
+          partialBytes.delete(asset.path);
           if (attempt === 2) {
             failed = true;
             throw new Error(`Could not download ${asset.path.split("/").pop()} (${error.message}).`);
@@ -104,6 +130,7 @@ async function downloadAssets() {
         }
       }
       completedBytes += asset.bytes;
+      partialBytes.delete(asset.path);
       completed++;
       update();
     }

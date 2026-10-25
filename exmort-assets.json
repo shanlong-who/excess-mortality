@@ -9,32 +9,27 @@
     {
       "path": "shinylive/chunk-JPKZOFRI.js",
       "bytes": 147808,
-      "sha256": "3e567c5ff27b0d03be46eb08685cbce126d12e796814a1b50094cc68ea014d3e",
-      "mirror": "https://shinylive.io/r/shinylive/chunk-JPKZOFRI.js"
+      "sha256": "3e567c5ff27b0d03be46eb08685cbce126d12e796814a1b50094cc68ea014d3e"
     },
     {
       "path": "shinylive/chunk-UV7YCL3S.js",
       "bytes": 3293,
-      "sha256": "90a1ee66778c57be39dcdb35eca9ce85c0ac05c00caa7a38d9f200b50cb8c95e",
-      "mirror": "https://shinylive.io/r/shinylive/chunk-UV7YCL3S.js"
+      "sha256": "90a1ee66778c57be39dcdb35eca9ce85c0ac05c00caa7a38d9f200b50cb8c95e"
     },
     {
       "path": "shinylive/shinylive.css",
       "bytes": 31371,
-      "sha256": "2e8e5210bc63352ac0d3282f54a1b268b7bc281e9c246bd82bdd47ad5c6a989d",
-      "mirror": "https://shinylive.io/r/shinylive/shinylive.css"
+      "sha256": "2e8e5210bc63352ac0d3282f54a1b268b7bc281e9c246bd82bdd47ad5c6a989d"
     },
     {
       "path": "shinylive/shinylive.js",
       "bytes": 1612664,
-      "sha256": "3c0f0352fa7dcdb190b30b49b640a68520efc6f4b7468b6dd26ec19bc1de6ed4",
-      "mirror": "https://shinylive.io/r/shinylive/shinylive.js"
+      "sha256": "3c0f0352fa7dcdb190b30b49b640a68520efc6f4b7468b6dd26ec19bc1de6ed4"
     },
     {
       "path": "shinylive/style-resets.css",
       "bytes": 856,
-      "sha256": "719cacc9ab04a5a1ae5f1c3b51c3aea064c297503b83ce54caa4fb28fea891bb",
-      "mirror": "https://shinylive.io/r/shinylive/style-resets.css"
+      "sha256": "719cacc9ab04a5a1ae5f1c3b51c3aea064c297503b83ce54caa4fb28fea891bb"
     },
     {
       "path": "shinylive/webr/R.js",
@@ -63,13 +58,88 @@
       "path": "shinylive/webr/library.data.gz",
       "bytes": 15057328,
       "sha256": "d99bdbb98dbd2d450059b3768c2c24ccff5c2d46caf94f13ee445660fd9e5ac1",
-      "mirror": "https://shinylive.io/r/shinylive/webr/library.data.gz"
+      "parts": [
+        {
+          "path": "shinylive/webr/parts/d99bdbb98dbd/part-001.bin",
+          "offset": 0,
+          "bytes": 1048576
+        },
+        {
+          "path": "shinylive/webr/parts/d99bdbb98dbd/part-002.bin",
+          "offset": 1048576,
+          "bytes": 1048576
+        },
+        {
+          "path": "shinylive/webr/parts/d99bdbb98dbd/part-003.bin",
+          "offset": 2097152,
+          "bytes": 1048576
+        },
+        {
+          "path": "shinylive/webr/parts/d99bdbb98dbd/part-004.bin",
+          "offset": 3145728,
+          "bytes": 1048576
+        },
+        {
+          "path": "shinylive/webr/parts/d99bdbb98dbd/part-005.bin",
+          "offset": 4194304,
+          "bytes": 1048576
+        },
+        {
+          "path": "shinylive/webr/parts/d99bdbb98dbd/part-006.bin",
+          "offset": 5242880,
+          "bytes": 1048576
+        },
+        {
+          "path": "shinylive/webr/parts/d99bdbb98dbd/part-007.bin",
+          "offset": 6291456,
+          "bytes": 1048576
+        },
+        {
+          "path": "shinylive/webr/parts/d99bdbb98dbd/part-008.bin",
+          "offset": 7340032,
+          "bytes": 1048576
+        },
+        {
+          "path": "shinylive/webr/parts/d99bdbb98dbd/part-009.bin",
+          "offset": 8388608,
+          "bytes": 1048576
+        },
+        {
+          "path": "shinylive/webr/parts/d99bdbb98dbd/part-010.bin",
+          "offset": 9437184,
+          "bytes": 1048576
+        },
+        {
+          "path": "shinylive/webr/parts/d99bdbb98dbd/part-011.bin",
+          "offset": 10485760,
+          "bytes": 1048576
+        },
+        {
+          "path": "shinylive/webr/parts/d99bdbb98dbd/part-012.bin",
+          "offset": 11534336,
+          "bytes": 1048576
+        },
+        {
+          "path": "shinylive/webr/parts/d99bdbb98dbd/part-013.bin",
+          "offset": 12582912,
+          "bytes": 1048576
+        },
+        {
+          "path": "shinylive/webr/parts/d99bdbb98dbd/part-014.bin",
+          "offset": 13631488,
+          "bytes": 1048576
+        },
+        {
+          "path": "shinylive/webr/parts/d99bdbb98dbd/part-015.bin",
+          "offset": 14680064,
+          "bytes": 377264
+        }
+      ]
     },
     {
       "path": "shinylive/webr/library.js.metadata",
       "bytes": 181616,
-      "sha256": "b7864d6f390d3ee454a0127e5f6b3b01690f7c6cbca45921f868ea05fdb885ca",
-      "mirror": "https://shinylive.io/r/shinylive/webr/library.js.metadata"
+      "sha256": "b7864d6f390d3ee454a0127e5f6b3b01690f7c6cbca45921f868ea05fdb885ca"
     },
     {
       "path": "shinylive/webr/packages/DT/DT_0.34.0.tgz",
