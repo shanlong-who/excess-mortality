@@ -1894,7 +1894,8 @@ self.addEventListener("fetch", function(event) {
     );
     return;
   }
-  const coiRequested = url.searchParams.get("coi") === "1" || request.referrer.includes("coi=1");
+  // Use webR's shared-memory channel on static hosting.
+  const coiRequested = true;
   const appPathRegex = /.*\/(app_[^/]+\/)/;
   const m_appPath = appPathRegex.exec(url.pathname);
   if (m_appPath) {

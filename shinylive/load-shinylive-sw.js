@@ -34,6 +34,12 @@ if (shinyliveMetaTag !== null) {
 serviceWorkerDir = serviceWorkerDir.replace(/\/$/, "");
 var serviceWorkerPath = serviceWorkerDir + "/shinylive-sw.js";
 if ("serviceWorker" in navigator) {
+  // Reload once when the updated worker can supply isolation headers.
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (!window.crossOriginIsolated) {
+      window.location.reload();
+    }
+  });
   navigator.serviceWorker.register(serviceWorkerPath, { type: "module" }).then((registration) => registration.update()).then(() => console.log("Service Worker registered")).catch(() => console.log("Service Worker registration failed"));
   navigator.serviceWorker.ready.then(() => {
     if (!navigator.serviceWorker.controller) {
