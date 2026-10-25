@@ -1894,8 +1894,7 @@ self.addEventListener("fetch", function(event) {
     );
     return;
   }
-  // Use webR's shared-memory channel on static hosting.
-  const coiRequested = true;
+  const coiRequested = url.searchParams.get("coi") === "1" || request.referrer.includes("coi=1");
   const appPathRegex = /.*\/(app_[^/]+\/)/;
   const m_appPath = appPathRegex.exec(url.pathname);
   if (m_appPath) {

@@ -4,25 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shiny App</title>
-    <script
-      src="./shinylive/load-shinylive-sw.js"
-      type="module"
-    ></script>
     <script type="module">
-      import { runExportedApp } from "./shinylive/shinylive.js";
-      runExportedApp({
-        id: "root",
-        appEngine: "r",
-        relPath: "",
-      });
+      const pageUrl = new URL(window.location.href);
+      if (pageUrl.searchParams.get("coi") !== "1") {
+        pageUrl.searchParams.set("coi", "1");
+        window.location.replace(pageUrl.href);
+      } else {
+        await import("./shinylive/load-shinylive-sw.js?v=coi-1");
+        const { runExportedApp } = await import("./shinylive/shinylive.js");
+        runExportedApp({ id: "root", appEngine: "r", relPath: "" });
+      }
     </script>
     <link rel="stylesheet" href="./shinylive/style-resets.css" />
     <link rel="stylesheet" href="./shinylive/shinylive.css" />
-    
   </head>
   <body>
-    
     <div style="height: 100vh; width: 100vw" id="root"></div>
-    
   </body>
 </html>
