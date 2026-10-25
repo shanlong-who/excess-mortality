@@ -55,6 +55,7 @@ async function downloadAssets() {
   const manifestResponse = await fetch("./exmort-assets.json", {cache: "no-store"});
   if (!manifestResponse.ok) throw new Error(`File list returned HTTP ${manifestResponse.status}.`);
   const manifest = await manifestResponse.json();
+  const cache = await caches.open(`${manifest.version}::exmort:${new URL("./", location.href).href}`);
   const totalBytes = manifest.assets.reduce((sum, asset) => sum + asset.bytes, 0);
   let completedBytes = 0;
   let completed = 0;
@@ -74,10 +75,24 @@ async function downloadAssets() {
         const controller = new AbortController();
         const timeout = setTimeout(() => controller.abort(), 90000);
         try {
-          const response = await fetch(asset.path, {signal: controller.signal});
+          const localUrl = new URL(asset.path, location.href).href;
+          const cached = attempt === 0 ? await cache.match(localUrl) : null;
+          const source = asset.mirror && attempt < 2 ? asset.mirror : localUrl;
+          const response = cached || await fetch(source, {signal: controller.signal});
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
-          const bytes = (await response.arrayBuffer()).byteLength;
-          if (bytes !== asset.bytes) throw new Error("Incomplete or outdated file");
+          const data = await response.arrayBuffer();
+          if (data.byteLength !== asset.bytes) throw new Error("Incomplete or outdated file");
+          const hash = Array.from(new Uint8Array(await crypto.subtle.digest("SHA-256", data)), byte => byte.toString(16).padStart(2, "0")).join("");
+          if (hash !== asset.sha256) throw new Error("File checksum did not match");
+          if (!cached) {
+            const headers = new Headers(response.headers);
+            headers.delete("Content-Encoding");
+            headers.set("Content-Length", String(data.byteLength));
+            headers.set("Cross-Origin-Embedder-Policy", "require-corp");
+            headers.set("Cross-Origin-Opener-Policy", "same-origin");
+            headers.set("Cross-Origin-Resource-Policy", "cross-origin");
+            await cache.put(localUrl, new Response(data, {status: 200, headers}));
+          }
           success = true;
         } catch (error) {
           if (attempt === 2) {

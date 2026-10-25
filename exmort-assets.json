@@ -1,797 +1,1078 @@
 {
-  "version": "06b1cedf1ec6",
+  "version": "4c7aa3a2af06",
   "assets": [
     {
       "path": "app.json",
-      "bytes": 5186500
+      "bytes": 5186500,
+      "sha256": "b8fd728c6456320a41446590f52116fe84dc57fbd20874870c5c7cb12978aff7"
     },
     {
       "path": "shinylive/chunk-JPKZOFRI.js",
-      "bytes": 147808
+      "bytes": 147808,
+      "sha256": "3e567c5ff27b0d03be46eb08685cbce126d12e796814a1b50094cc68ea014d3e"
     },
     {
       "path": "shinylive/chunk-UV7YCL3S.js",
-      "bytes": 3293
+      "bytes": 3293,
+      "sha256": "90a1ee66778c57be39dcdb35eca9ce85c0ac05c00caa7a38d9f200b50cb8c95e"
     },
     {
       "path": "shinylive/shinylive.css",
-      "bytes": 31371
+      "bytes": 31371,
+      "sha256": "2e8e5210bc63352ac0d3282f54a1b268b7bc281e9c246bd82bdd47ad5c6a989d"
     },
     {
       "path": "shinylive/shinylive.js",
-      "bytes": 1612664
+      "bytes": 1612664,
+      "sha256": "3c0f0352fa7dcdb190b30b49b640a68520efc6f4b7468b6dd26ec19bc1de6ed4"
     },
     {
       "path": "shinylive/style-resets.css",
-      "bytes": 856
+      "bytes": 856,
+      "sha256": "719cacc9ab04a5a1ae5f1c3b51c3aea064c297503b83ce54caa4fb28fea891bb"
     },
     {
       "path": "shinylive/webr/R.js",
-      "bytes": 785856
+      "bytes": 785856,
+      "sha256": "2161887e3a050baf75ef0fea088142356f8e173b46ea9b2f19f80a773fb5d9ca"
     },
     {
       "path": "shinylive/webr/R.wasm",
-      "bytes": 18062845
+      "bytes": 18062845,
+      "sha256": "5df459fb222d332e358cf08e4019c0e114398579ed8c62242bfcceeda81222ba"
     },
     {
       "path": "shinylive/webr/libRblas.so",
-      "bytes": 198205
+      "bytes": 198205,
+      "sha256": "d831496cc1d1e2748519439a0ea509ba966b56db10d13132db52331a270aac74"
     },
     {
       "path": "shinylive/webr/libRlapack.so",
-      "bytes": 1769888
+      "bytes": 1769888,
+      "sha256": "df8ca333754f0dd95715df437f6e6d633e4ffbff0176bcb11c15fe3e5dd4e387"
     },
     {
       "path": "shinylive/webr/library.data.gz",
-      "bytes": 15057328
+      "bytes": 15057328,
+      "sha256": "d99bdbb98dbd2d450059b3768c2c24ccff5c2d46caf94f13ee445660fd9e5ac1"
     },
     {
       "path": "shinylive/webr/library.js.metadata",
-      "bytes": 181616
+      "bytes": 181616,
+      "sha256": "b7864d6f390d3ee454a0127e5f6b3b01690f7c6cbca45921f868ea05fdb885ca"
     },
     {
       "path": "shinylive/webr/packages/DT/DT_0.34.0.tgz",
-      "bytes": 1729331
+      "bytes": 1729331,
+      "sha256": "4231c839d567df5629ac0027fb77e8d26b299546318fe661654e25022a46da00",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/DT_0.34.0.tgz"
     },
     {
       "path": "shinylive/webr/packages/ISOweek/ISOweek_0.6-2.tgz",
-      "bytes": 24024
+      "bytes": 24024,
+      "sha256": "8cb3100e47b1046db9f2a0e962b8e69131fccb2b932323597d07c58f8d696de4",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/ISOweek_0.6-2.tgz"
     },
     {
       "path": "shinylive/webr/packages/Matrix/Matrix_1.7-6.tgz",
-      "bytes": 2934190
+      "bytes": 2934190,
+      "sha256": "a6caf93b993de359eab932fff8ac0c39d7e2f372b885458f0f98051a9be82237",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/Matrix_1.7-6.tgz"
     },
     {
       "path": "shinylive/webr/packages/RColorBrewer/RColorBrewer_1.1-3.tgz",
-      "bytes": 26996
+      "bytes": 26996,
+      "sha256": "cf5564fee1b54d547dd5656afbea17e34d48f74ef97b376e495dd4e223ecafc9",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/RColorBrewer_1.1-3.tgz"
     },
     {
       "path": "shinylive/webr/packages/S7/S7_0.2.2.tgz",
-      "bytes": 225283
+      "bytes": 225283,
+      "sha256": "76b7d1dcbab977c592a2d951a07336f509243c34fa0d56f6c2c56f2b71c3aec4",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/S7_0.2.2.tgz"
     },
     {
       "path": "shinylive/webr/packages/askpass/askpass_1.2.1.tgz",
-      "bytes": 17145
+      "bytes": 17145,
+      "sha256": "b29aac1368da363a2248e76bb8f0e969aeb100f7d593550b0fc2bb40a731329b",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/askpass_1.2.1.tgz"
     },
     {
       "path": "shinylive/webr/packages/cellranger/cellranger_1.1.0.tgz",
-      "bytes": 81231
+      "bytes": 81231,
+      "sha256": "89d210743ff813cecfad50b5c66f7ba696dc216bc6388c9a312b3099faab1872",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/cellranger_1.1.0.tgz"
     },
     {
       "path": "shinylive/webr/packages/colorspace/colorspace_2.1-4.tgz",
-      "bytes": 2442447
+      "bytes": 2442447,
+      "sha256": "a5fd2e78564f1d7dd9f2b72a14b01ee82a24442f596437b471097a714e1226ba",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/colorspace_2.1-4.tgz"
     },
     {
       "path": "shinylive/webr/packages/crosstalk/crosstalk_1.2.2.tgz",
-      "bytes": 346096
+      "bytes": 346096,
+      "sha256": "ee5b94677b013093da3808c9c279736e63dd91caad05faf1c44c66a84a2febdf",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/crosstalk_1.2.2.tgz"
     },
     {
       "path": "shinylive/webr/packages/curl/curl_8.0.0.tgz",
-      "bytes": 2376698
+      "bytes": 2376698,
+      "sha256": "fc3624f2b39738538790820643ecc993766bb6c14c36b84328bb03f7d5eedb27",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/curl_8.0.0.tgz"
     },
     {
       "path": "shinylive/webr/packages/data.table/data.table_1.18.6.1.tgz",
-      "bytes": 2416255
+      "bytes": 2416255,
+      "sha256": "087d1fc68eb220195a2ef746fd6dc980e38087c40e3e61a1dd1c1f389734d9bb",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/data.table_1.18.6.1.tgz"
     },
     {
       "path": "shinylive/webr/packages/dplyr/dplyr_1.2.1.tgz",
-      "bytes": 1130500
+      "bytes": 1130500,
+      "sha256": "58c606c81e4539318c705f6d40a640b4cc9121e60aac3e3632d0029cf6841d08",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/dplyr_1.2.1.tgz"
     },
     {
       "path": "shinylive/webr/packages/evaluate/evaluate_1.0.5.tgz",
-      "bytes": 72262
+      "bytes": 72262,
+      "sha256": "78e951393968c4d2298d9ea380bb06ab31f037dc9eaf74fac9b59a77c3801c3c",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/evaluate_1.0.5.tgz"
     },
     {
       "path": "shinylive/webr/packages/farver/farver_2.1.2.tgz",
-      "bytes": 1317442
+      "bytes": 1317442,
+      "sha256": "f7555f2c1926f88d431ff1919c81cff48ff6eadc09de4471610312695be6cea8",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/farver_2.1.2.tgz"
     },
     {
       "path": "shinylive/webr/packages/flextable/flextable_0.10.1.tgz",
-      "bytes": 1107574
+      "bytes": 1107574,
+      "sha256": "c5db8b64db9afca37a792076547761beb7b5e75adcdc8b9b8803dad7a76ef29c",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/flextable_0.10.1.tgz"
     },
     {
       "path": "shinylive/webr/packages/fontBitstreamVera/fontBitstreamVera_0.1.1.tgz",
-      "bytes": 702920
+      "bytes": 702920,
+      "sha256": "a0539d53645bcb6f5fb9c831d7351fd258d7e2b5443851a6812d4babe2d37d19",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/fontBitstreamVera_0.1.1.tgz"
     },
     {
       "path": "shinylive/webr/packages/fontLiberation/fontLiberation_0.1.0.tgz",
-      "bytes": 4543126
+      "bytes": 4543126,
+      "sha256": "18a16fa99755f043e90aa9a10c448fd6c4b8e1f32de5f02a142ebbfae7b8a3c1",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/fontLiberation_0.1.0.tgz"
     },
     {
       "path": "shinylive/webr/packages/fontquiver/fontquiver_0.2.1.tgz",
-      "bytes": 2262524
+      "bytes": 2262524,
+      "sha256": "4b1a3263c7ed34d741cb743fce39b9d7a5e8ea8aa0fe9b6c7d4b11d8980ba12e",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/fontquiver_0.2.1.tgz"
     },
     {
       "path": "shinylive/webr/packages/forecast/forecast_9.0.2.tgz",
-      "bytes": 1000703
+      "bytes": 1000703,
+      "sha256": "edbe2743886690358bb049065e12c8218abb12ed07a54a5572c582a0f26999df",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/forecast_9.0.2.tgz"
     },
     {
       "path": "shinylive/webr/packages/fracdiff/fracdiff_1.5-4.tgz",
-      "bytes": 68655
+      "bytes": 68655,
+      "sha256": "fb19f02419e5522ebff889a8a2c67686d65ed8fe621c8146c76e157ff36f747d",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/fracdiff_1.5-4.tgz"
     },
     {
       "path": "shinylive/webr/packages/gdtools/gdtools_0.5.1.tgz",
-      "bytes": 1040170
+      "bytes": 1040170,
+      "sha256": "4f3b476c0d2d3cd82186dd35866f4228e17f90c5bfc009274744b5291f8beda2",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/gdtools_0.5.1.tgz"
     },
     {
       "path": "shinylive/webr/packages/generics/generics_0.1.4.tgz",
-      "bytes": 75687
+      "bytes": 75687,
+      "sha256": "a9c7ca26beaef02a95fb0c971a9a1a5b8e09db3d99baf17796537d2bf9a396bc",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/generics_0.1.4.tgz"
     },
     {
       "path": "shinylive/webr/packages/ggplot2/ggplot2_4.0.3.tgz",
-      "bytes": 7481119
+      "bytes": 7481119,
+      "sha256": "1a299608d88c92d5741666229c1125848e4c210b0624ebd0012af97957976ae6",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/ggplot2_4.0.3.tgz"
     },
     {
       "path": "shinylive/webr/packages/ggrepel/ggrepel_0.9.8.tgz",
-      "bytes": 256959
+      "bytes": 256959,
+      "sha256": "466f87f331047aed042e52cb0a6a4165462656a525faf790f967b743a7b9af7e",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/ggrepel_0.9.8.tgz"
     },
     {
       "path": "shinylive/webr/packages/gtable/gtable_0.3.6.tgz",
-      "bytes": 184798
+      "bytes": 184798,
+      "sha256": "dae6408ed2ed1d759e50c5fb7e45f81348ff3f4f914cb418ac12bdeaae2ee80b",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/gtable_0.3.6.tgz"
     },
     {
       "path": "shinylive/webr/packages/highr/highr_0.12.tgz",
-      "bytes": 30097
+      "bytes": 30097,
+      "sha256": "007f33651dca953ffa35db7362776aa8a00993c6f3986c46cfdc2e0759581871",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/highr_0.12.tgz"
     },
     {
       "path": "shinylive/webr/packages/htmlwidgets/htmlwidgets_1.6.4.tgz",
-      "bytes": 83849
+      "bytes": 83849,
+      "sha256": "abe7fa9b13a349b06c2811d3f6aa76da33f77478115615ab4c2a5a7fbb879bc0",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/htmlwidgets_1.6.4.tgz"
     },
     {
       "path": "shinylive/webr/packages/httr/httr_1.4.9.tgz",
-      "bytes": 293059
+      "bytes": 293059,
+      "sha256": "695fef0dbb6917e87a8d3f445bcb8b60f6ec73fd1b06abed908d90281f953797",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/httr_1.4.9.tgz"
     },
     {
       "path": "shinylive/webr/packages/isoband/isoband_0.3.0.tgz",
-      "bytes": 1627614
+      "bytes": 1627614,
+      "sha256": "bc7494f286084e8861331256df0f6ab27e519e1797e807ec100db1116d3e7a8e",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/isoband_0.3.0.tgz"
     },
     {
       "path": "shinylive/webr/packages/kableExtra/kableExtra_1.4.1.tgz",
-      "bytes": 1900832
+      "bytes": 1900832,
+      "sha256": "f739d2cc1b298dcd858cc11ad0c16a9bb4b405e7df48b6167701e2db1b229b84",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/kableExtra_1.4.1.tgz"
     },
     {
       "path": "shinylive/webr/packages/knitr/knitr_1.52.tgz",
-      "bytes": 777341
+      "bytes": 777341,
+      "sha256": "7d6a45ce61a39380eae654dbcf1cc79b9a4f4d3d06560e20c08fd017faaf80ac",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/knitr_1.52.tgz"
     },
     {
       "path": "shinylive/webr/packages/labeling/labeling_0.4.3.tgz",
-      "bytes": 42861
+      "bytes": 42861,
+      "sha256": "1d89f92c8b15aee3b4f9c8c6c0e7697f79c515558c274279fddfd03a34a6d63d",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/labeling_0.4.3.tgz"
     },
     {
       "path": "shinylive/webr/packages/lattice/lattice_0.23-1.tgz",
-      "bytes": 1046940
+      "bytes": 1046940,
+      "sha256": "b1f6c45be57330e13595bfeb87550c21e3b09d6ee2a58551c19911d345a72722",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/lattice_0.23-1.tgz"
     },
     {
       "path": "shinylive/webr/packages/lazyeval/lazyeval_0.2.3.tgz",
-      "bytes": 141949
+      "bytes": 141949,
+      "sha256": "0a7b5b8c75a5ab7333904dc75e15391491ea92f8a6b0eae5b53e5153d04fc137",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/lazyeval_0.2.3.tgz"
     },
     {
       "path": "shinylive/webr/packages/lmtest/lmtest_0.9-40.tgz",
-      "bytes": 334286
+      "bytes": 334286,
+      "sha256": "ed0c0ff0caa1cab87b420102ea80cc515f35228c6e17d80ac515cbab8f62653e",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/lmtest_0.9-40.tgz"
     },
     {
       "path": "shinylive/webr/packages/lubridate/lubridate_1.9.5.tgz",
-      "bytes": 815509
+      "bytes": 815509,
+      "sha256": "cc501cff3f730dc8defdd866bb04384bfa43c909a23731320fb5146551a3d558",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/lubridate_1.9.5.tgz"
     },
     {
       "path": "shinylive/webr/packages/metadata.rds",
-      "bytes": 4918
+      "bytes": 4918,
+      "sha256": "46ae96ca7d91bf03410d375b184dd251576026f06e67b6289118619cf0bd9ff9"
     },
     {
       "path": "shinylive/webr/packages/mgcv/mgcv_1.9-4.tgz",
-      "bytes": 1724694
+      "bytes": 1724694,
+      "sha256": "719ca805aaf34eaf142990bc9d9b81862682950d3b19ed95475212ef8e02c8da",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/mgcv_1.9-4.tgz"
     },
     {
       "path": "shinylive/webr/packages/nlme/nlme_3.1-171.tgz",
-      "bytes": 1753155
+      "bytes": 1753155,
+      "sha256": "367d4c9dc2fcff190a7762b0db9a1b694dc3199258934c0be7071449079c552d",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/nlme_3.1-171.tgz"
     },
     {
       "path": "shinylive/webr/packages/nnet/nnet_7.3-21.tgz",
-      "bytes": 66946
+      "bytes": 66946,
+      "sha256": "9959de8cc6084c7bf8b29e8669203e4057bede66dbbe9e2e3b16352808bfe21f",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/nnet_7.3-21.tgz"
     },
     {
       "path": "shinylive/webr/packages/officedown/officedown_0.4.1.tgz",
-      "bytes": 640976
+      "bytes": 640976,
+      "sha256": "25a3574856aaa47c564f136d70360925f8c40345cba5341b882c0dc0e38b2470",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/officedown_0.4.1.tgz"
     },
     {
       "path": "shinylive/webr/packages/officer/officer_0.7.6.tgz",
-      "bytes": 1499353
+      "bytes": 1499353,
+      "sha256": "2aab2f1a9b61add4388d0439d650ab4be7e91fd3309cbea0e12a90c36e74a232",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/officer_0.7.6.tgz"
     },
     {
       "path": "shinylive/webr/packages/openssl/openssl_2.4.2.tgz",
-      "bytes": 2388297
+      "bytes": 2388297,
+      "sha256": "406e3506b99a0c18285c907cd60efc856613ce3a2c31d6939b860f3981769211",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/openssl_2.4.2.tgz"
     },
     {
       "path": "shinylive/webr/packages/openxlsx/openxlsx_4.2.9.tgz",
-      "bytes": 1738083
+      "bytes": 1738083,
+      "sha256": "ac2f943a1d9fd725d5248f39ea68e7ec0578501a113bcbe03f0879e6f848841f",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/openxlsx_4.2.9.tgz"
     },
     {
       "path": "shinylive/webr/packages/pillar/pillar_1.11.1.tgz",
-      "bytes": 497042
+      "bytes": 497042,
+      "sha256": "40c9fcfbfd39a0aa3e7ea784b73abcd7a0a1d4677628bb394ab0c56a0aad9be6",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/pillar_1.11.1.tgz"
     },
     {
       "path": "shinylive/webr/packages/pkgconfig/pkgconfig_2.0.3.tgz",
-      "bytes": 18480
+      "bytes": 18480,
+      "sha256": "fc97bdb16f209e9e79fc8e64234a1bb1263035f5f244ea8b748885b28e3c5d97",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/pkgconfig_2.0.3.tgz"
     },
     {
       "path": "shinylive/webr/packages/plotly/plotly_4.12.1.tgz",
-      "bytes": 3678770
+      "bytes": 3678770,
+      "sha256": "771184a397887c6336f1cb6c35e0f1e8e4c781e0eaad26413b8de7c27044d5da",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/plotly_4.12.1.tgz"
     },
     {
       "path": "shinylive/webr/packages/plyr/plyr_1.8.9.tgz",
-      "bytes": 705053
+      "bytes": 705053,
+      "sha256": "b93aa9ae9c9ec50447d15fbe43d1f22634aa40a7e0b750006fa7f2210860e5d9",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/plyr_1.8.9.tgz"
     },
     {
       "path": "shinylive/webr/packages/purrr/purrr_1.2.2.tgz",
-      "bytes": 447884
+      "bytes": 447884,
+      "sha256": "bd87e3e08ace87d8d6be7a47f4d2620843f15beb2f6e54f28eb90b1bdbb731e0",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/purrr_1.2.2.tgz"
     },
     {
       "path": "shinylive/webr/packages/ragg/ragg_1.5.2.tgz",
-      "bytes": 882979
+      "bytes": 882979,
+      "sha256": "1d4b05f9b4b89b27f58eff0f567ad22be823bca78ce7a4b94e91cf5dca907c15",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/ragg_1.5.2.tgz"
     },
     {
       "path": "shinylive/webr/packages/reactR/reactR_0.6.1.tgz",
-      "bytes": 611368
+      "bytes": 611368,
+      "sha256": "3ead69f233882074685153e56f907e6fd01103ab594003e584e7f0a1ed16bc1c",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/reactR_0.6.1.tgz"
     },
     {
       "path": "shinylive/webr/packages/reactable/reactable_0.4.5.tgz",
-      "bytes": 1014491
+      "bytes": 1014491,
+      "sha256": "56ac960e1cbefc526787c23d15ca712d6eac5a39e6781d806c4a0c7c4ee94d5f",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/reactable_0.4.5.tgz"
     },
     {
       "path": "shinylive/webr/packages/readxl/readxl_1.5.0.1.tgz",
-      "bytes": 780114
+      "bytes": 780114,
+      "sha256": "d8852835d33782ff207ab57bc5c7e73c592a9b57dd88ccf6bc0e368f0c7a1d08",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/readxl_1.5.0.1.tgz"
     },
     {
       "path": "shinylive/webr/packages/rematch/rematch_2.0.0.tgz",
-      "bytes": 16709
+      "bytes": 16709,
+      "sha256": "7b00c521c0446813a44e016c1df5b74af243272e68c58170b0114c3d49990605",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/rematch_2.0.0.tgz"
     },
     {
       "path": "shinylive/webr/packages/reshape2/reshape2_1.4.5.tgz",
-      "bytes": 85245
+      "bytes": 85245,
+      "sha256": "df72e0d424f32d9518b382a187da65d78394537eb4fb1fcb2f597429c0d9ea71",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/reshape2_1.4.5.tgz"
     },
     {
       "path": "shinylive/webr/packages/rmarkdown/rmarkdown_2.32.tgz",
-      "bytes": 2387326
+      "bytes": 2387326,
+      "sha256": "22a92d75aab2b29dc3a8a9fd11d15ecf1dd08e26ee35b6254d5c00473a597322",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/rmarkdown_2.32.tgz"
     },
     {
       "path": "shinylive/webr/packages/rstudioapi/rstudioapi_0.19.0.tgz",
-      "bytes": 314639
+      "bytes": 314639,
+      "sha256": "039ca736e048e6f53a80d4c8e6e3e0b3da61962bdf0fd9d2a596dc734918d77d",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/rstudioapi_0.19.0.tgz"
     },
     {
       "path": "shinylive/webr/packages/rvg/rvg_0.4.2.tgz",
-      "bytes": 168778
+      "bytes": 168778,
+      "sha256": "34180dedd48a128119f264883ed7a1188e12efa48c5d03181499c5f43fbe089b",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/rvg_0.4.2.tgz"
     },
     {
       "path": "shinylive/webr/packages/scales/scales_1.4.0.tgz",
-      "bytes": 620880
+      "bytes": 620880,
+      "sha256": "1e3fd9c44c6bba3ea2911ee8a2ee9a8cf5a47013a2ca6db8862cb10a1512ba96",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/scales_1.4.0.tgz"
     },
     {
       "path": "shinylive/webr/packages/shinyalert/shinyalert_3.1.0.tgz",
-      "bytes": 462131
+      "bytes": 462131,
+      "sha256": "788229140a948d9562690cd75f7e866df15e5b0b515a9cb61fb3998243e64735",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/shinyalert_3.1.0.tgz"
     },
     {
       "path": "shinylive/webr/packages/shinycssloaders/shinycssloaders_1.1.0.tgz",
-      "bytes": 337132
+      "bytes": 337132,
+      "sha256": "a68b68cc274f0b6989d94cb69f7cf56be6d2967e43b1027f8a57c3a93c5d71bf",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/shinycssloaders_1.1.0.tgz"
     },
     {
       "path": "shinylive/webr/packages/shinyjs/shinyjs_2.1.1.tgz",
-      "bytes": 1057218
+      "bytes": 1057218,
+      "sha256": "7bc65fe4184c33e2fbdc7171b83c4cff642638ff36af02d7472a2188e508915b",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/shinyjs_2.1.1.tgz"
     },
     {
       "path": "shinylive/webr/packages/stringi/stringi_1.8.9.tgz",
-      "bytes": 14091735
+      "bytes": 14091735,
+      "sha256": "9dbaf879802701c962215cea056873187e4034ea8aa4d9c3309871c3fa190a1c",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/stringi_1.8.9.tgz"
     },
     {
       "path": "shinylive/webr/packages/stringr/stringr_1.6.0.tgz",
-      "bytes": 279560
+      "bytes": 279560,
+      "sha256": "be6e72ef1c8ddecbf44aa42a7ba7c7a333645e218ab57f92992a8a5b7a4030f3",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/stringr_1.6.0.tgz"
     },
     {
       "path": "shinylive/webr/packages/svglite/svglite_2.2.2.tgz",
-      "bytes": 265269
+      "bytes": 265269,
+      "sha256": "4dfbc7d4f82a3ea318befc020be81b61ce0482ffcb77bdde2829d0d21a0ff9e1",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/svglite_2.2.2.tgz"
     },
     {
       "path": "shinylive/webr/packages/sys/sys_3.4.3.tgz",
-      "bytes": 33034
+      "bytes": 33034,
+      "sha256": "03b1e6d701c6ce782417259fac8f48f67870430a19cf187b806a41ff57364909",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/sys_3.4.3.tgz"
     },
     {
       "path": "shinylive/webr/packages/systemfonts/systemfonts_1.3.2.tgz",
-      "bytes": 1092354
+      "bytes": 1092354,
+      "sha256": "1bcd9d5253dcc82638201ed877f5a3aad6cb93a39dd7b357ca99e42cba25c730",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/systemfonts_1.3.2.tgz"
     },
     {
       "path": "shinylive/webr/packages/textshaping/textshaping_1.0.5.tgz",
-      "bytes": 578930
+      "bytes": 578930,
+      "sha256": "1b8e1f7a64e6482fa247640de4c0c7100bbaf873a1aa44c889291fb2e66e0610",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/textshaping_1.0.5.tgz"
     },
     {
       "path": "shinylive/webr/packages/tibble/tibble_3.3.1.tgz",
-      "bytes": 534486
+      "bytes": 534486,
+      "sha256": "b7f65a179045923b66d9e749aac9c9183b32eef1c4b1a7242eb889f07b948578",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/tibble_3.3.1.tgz"
     },
     {
       "path": "shinylive/webr/packages/tidyr/tidyr_1.3.2.tgz",
-      "bytes": 1024746
+      "bytes": 1024746,
+      "sha256": "78ce1111b32640d981f9e5ff92095c7b3d21fb7ef1a39238fb1643f3359ace95",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/tidyr_1.3.2.tgz"
     },
     {
       "path": "shinylive/webr/packages/tidyselect/tidyselect_1.2.1.tgz",
-      "bytes": 166200
+      "bytes": 166200,
+      "sha256": "df3668720dcce42a097cdef7e92d344dfd069a913647cbc1c0fa19ed0704285b",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/tidyselect_1.2.1.tgz"
     },
     {
       "path": "shinylive/webr/packages/timeDate/timeDate_4052.112.tgz",
-      "bytes": 894888
+      "bytes": 894888,
+      "sha256": "0c4641d076a52df03bbd53b192080102b8668b3135f52c85b8ae20c32065c882",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/timeDate_4052.112.tgz"
     },
     {
       "path": "shinylive/webr/packages/timechange/timechange_0.4.0.tgz",
-      "bytes": 102429
+      "bytes": 102429,
+      "sha256": "22bdfaf86e120df672607bbf1db5f481a21d8dae26f1ac6a8817b08c51ec136c",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/timechange_0.4.0.tgz"
     },
     {
       "path": "shinylive/webr/packages/tinytex/tinytex_0.61.tgz",
-      "bytes": 93843
+      "bytes": 93843,
+      "sha256": "3ebec7f4d56559091a77ad768d6b5c6fa8efe5c093aa4a94bd13c7f9456193be",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/tinytex_0.61.tgz"
     },
     {
       "path": "shinylive/webr/packages/urca/urca_1.3-4.tgz",
-      "bytes": 952908
+      "bytes": 952908,
+      "sha256": "20d2cf77f431da64549fc3773aa4dd2d46abd5207ee24378c67b9257f497dead",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/urca_1.3-4.tgz"
     },
     {
       "path": "shinylive/webr/packages/utf8/utf8_1.2.6.tgz",
-      "bytes": 120303
+      "bytes": 120303,
+      "sha256": "51702a5960a8e85bca8a9064c37ec2f006f9f2655b1e8f35b7c6ef18362340c3",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/utf8_1.2.6.tgz"
     },
     {
       "path": "shinylive/webr/packages/uuid/uuid_1.2-2.tgz",
-      "bytes": 36377
+      "bytes": 36377,
+      "sha256": "3c21365e202d055e08c5fc6ff9522dba9f9187b6ae3abfeab276b899881d841f",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/uuid_1.2-2.tgz"
     },
     {
       "path": "shinylive/webr/packages/vctrs/vctrs_0.7.3.tgz",
-      "bytes": 1433335
+      "bytes": 1433335,
+      "sha256": "42cc19d325e7de2160490273d97099049f261e8b6c3e6736391d96e43923798d",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/vctrs_0.7.3.tgz"
     },
     {
       "path": "shinylive/webr/packages/viridisLite/viridisLite_0.4.3.tgz",
-      "bytes": 1295884
+      "bytes": 1295884,
+      "sha256": "cbb327d9e0efe61bfa40ba89c9af3dc05fc5bd76ea69fc485ef3f64fe1785983",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/viridisLite_0.4.3.tgz"
     },
     {
       "path": "shinylive/webr/packages/xfun/xfun_0.61.tgz",
-      "bytes": 434074
+      "bytes": 434074,
+      "sha256": "62e6499ecbf49a3a2fc7343ac836c91c80f4d6bab5edeaed97fc1450230ff686",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/xfun_0.61.tgz"
     },
     {
       "path": "shinylive/webr/packages/xml2/xml2_1.6.0.tgz",
-      "bytes": 474636
+      "bytes": 474636,
+      "sha256": "3618879568c846e1c4b298604297addf1867c2c461ad13361b623c0352a3ac86",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/xml2_1.6.0.tgz"
     },
     {
       "path": "shinylive/webr/packages/yaml/yaml_2.3.12.tgz",
-      "bytes": 88482
+      "bytes": 88482,
+      "sha256": "027e4bd87fcd16d0ba744dd41c51e2eb711c07d873f6050e65c8daf454d74f13",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/yaml_2.3.12.tgz"
     },
     {
       "path": "shinylive/webr/packages/zip/zip_3.0.2.tgz",
-      "bytes": 147860
+      "bytes": 147860,
+      "sha256": "a5c6f3048776f37f2df4e2e577c1f427dbc795632972784d504c5b07b405ed6a",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/zip_3.0.2.tgz"
     },
     {
       "path": "shinylive/webr/packages/zoo/zoo_1.9-1.tgz",
-      "bytes": 814524
+      "bytes": 814524,
+      "sha256": "c3dd43342691e817161b98de107c71b89b647af2a04d3b083f80c1c52bca949b",
+      "mirror": "https://repo.r-wasm.org/bin/emscripten/contrib/4.6/zoo_1.9-1.tgz"
     },
     {
       "path": "shinylive/webr/vfs/etc/fonts/fonts.conf",
-      "bytes": 1089
+      "bytes": 1089,
+      "sha256": "a93efbf9eec83d72a463f1d52f54043a8afa6ae7cc05609deda73232525e7bc0"
     },
     {
       "path": "shinylive/webr/vfs/etc/ssl/cert.pem",
-      "bytes": 189462
+      "bytes": 189462,
+      "sha256": "86a1f3366afac7c6f8ae9f3c779ac221129328c43f0ab2b8817eb2f362a5025c"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/base/demo.data.gz",
-      "bytes": 4460
+      "bytes": 4460,
+      "sha256": "5dc1fc84cb1d61e4d5311b8e01458014dab1c434c2b6d93deca3eaa9b50752e2"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/base/demo.js.metadata",
-      "bytes": 263
+      "bytes": 263,
+      "sha256": "bfc597e88f9b97b8eec9fd36227ef0d079fdf1c32e8bea84c3b1e77fb7a6b05c"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/base/help.data.gz",
-      "bytes": 2633853
+      "bytes": 2633853,
+      "sha256": "7c5dec2357f9e36fa4d348a8fef8477994cd56089009247e5908d918a6fb1a09"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/base/help.js.metadata",
-      "bytes": 318
+      "bytes": 318,
+      "sha256": "a4cc3075fc1bd2bdd4826ee04efa616d569cd7e07886b8c98531a23406fc0a25"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/base/html.data.gz",
-      "bytes": 20906
+      "bytes": 20906,
+      "sha256": "1f4e82a2633bf1cc134d3dbc6222003492de2fe207ddecccd6e3ab5d4f46f30c"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/base/html.js.metadata",
-      "bytes": 155
+      "bytes": 155,
+      "sha256": "4826bdd7ba15568d7ab5226c92b1d742bcd3f4ce853300f55bf205a5f8e22d02"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/compiler/help.data.gz",
-      "bytes": 10128
+      "bytes": 10128,
+      "sha256": "c8e850b5b5e1a04aaf29ef42d50f805473f56c988abcf60ffcb375195f7bcddc"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/compiler/help.js.metadata",
-      "bytes": 304
+      "bytes": 304,
+      "sha256": "1afd086c4166f184ec0db0943352c4c5885a33e1b8fb70e537241da712288534"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/compiler/html.data.gz",
-      "bytes": 1227
+      "bytes": 1227,
+      "sha256": "6d157ac6c76a2f2b15a989ffdbc8c1a465b91811a654aa6fb1573d783109e30c"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/compiler/html.js.metadata",
-      "bytes": 147
+      "bytes": 147,
+      "sha256": "98d18997c393881d285172dcb2414da928192520af6aba215667f0a93b0da54d"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/datasets/help.data.gz",
-      "bytes": 277806
+      "bytes": 277806,
+      "sha256": "de58c6303b01b5fe83fca73a5d205e7448ffa16a56cf0a1086d776fdc60bb4dd"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/datasets/help.js.metadata",
-      "bytes": 316
+      "bytes": 316,
+      "sha256": "a5cb9f65838dad1ad72e662675d28dafb75b8769c02d9537fac7569a295b7c16"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/datasets/html.data.gz",
-      "bytes": 4458
+      "bytes": 4458,
+      "sha256": "6f1eb6811cd3432e9764e75b0d418e3ed2455835a58f725ba18d0b2b8e1ed94d"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/datasets/html.js.metadata",
-      "bytes": 151
+      "bytes": 151,
+      "sha256": "c9c5e5bafee1c03be04d2867f44923e0fa74791bbc51ccbb8d3ff5579bb5e211"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grDevices/afm.data.gz",
-      "bytes": 953823
+      "bytes": 953823,
+      "sha256": "bb0d88c8492ba397470152d6d90d82e055092dad73e1e864fe6b2ebf0b2bd52a"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grDevices/afm.js.metadata",
-      "bytes": 6816
+      "bytes": 6816,
+      "sha256": "3e88061dfecc14c6cd1386be85d4fef59fe1f964312db41903e471ed74e7cf02"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grDevices/demo.data.gz",
-      "bytes": 2513
+      "bytes": 2513,
+      "sha256": "89433796693b081e65e8ae3214f4b8823c564a2fe8bf0f900956adf55fb16f2c"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grDevices/demo.js.metadata",
-      "bytes": 149
+      "bytes": 149,
+      "sha256": "2a51924eaee18cbe41bfe8f11ae70f083748d97ef5cbbb77bd3c3a133eaad471"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grDevices/enc.data.gz",
-      "bytes": 4263
+      "bytes": 4263,
+      "sha256": "73fcd21310a54e033f151f6c887001c55d348ff26e2e4d32a0be0ad48c3a4fd7"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grDevices/enc.js.metadata",
-      "bytes": 960
+      "bytes": 960,
+      "sha256": "fd6fb479b499da19fe442318ac147bdda2557a087ff19acda5a220fbe6686617"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grDevices/fonts.data.gz",
-      "bytes": 273155
+      "bytes": 273155,
+      "sha256": "4dca57d1a4a8b8ab530fa67b019193e6b3457d4066506a67284179f58bb50a72"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grDevices/fonts.js.metadata",
-      "bytes": 352
+      "bytes": 352,
+      "sha256": "a59f1e81fa5a21f6b6fb91b6a51ad9944cff3283d5891c9427a3702573b6d65c"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grDevices/help.data.gz",
-      "bytes": 447385
+      "bytes": 447385,
+      "sha256": "cd5bb1d9e3da614ecfd34d493b5370c98e3e3e93dd625fac1f753c6c6a67d3a0"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grDevices/help.js.metadata",
-      "bytes": 318
+      "bytes": 318,
+      "sha256": "c639cb7c72cac13497dc29f0147f311a5206c9dc249885b0e2d11daa44e00106"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grDevices/html.data.gz",
-      "bytes": 4188
+      "bytes": 4188,
+      "sha256": "de1205804774e7d7db07966467a2d0ea66734550583ad4549935d4356cffd9bb"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grDevices/html.js.metadata",
-      "bytes": 151
+      "bytes": 151,
+      "sha256": "3a2b36bad1509df1912e194322e133c7f362ae7cade8c178e9fbfe88da0a0c83"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grDevices/libs.data.gz",
-      "bytes": 1643930
+      "bytes": 1643930,
+      "sha256": "558a09f14c830848510b6279c1141802d392fe2d0aaf66eca174faa03dc7bb1d"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grDevices/libs.js.metadata",
-      "bytes": 103
+      "bytes": 103,
+      "sha256": "f4b2da4dd2f93011eaa259f8dddc23c63dd144fecc8322fab7885341952e2b7b"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/graphics/demo.data.gz",
-      "bytes": 13086
+      "bytes": 13086,
+      "sha256": "3e60f0210cb48d0c40a8c56436af980e2a71f0016ea66b7d95f1932ffea24762"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/graphics/demo.js.metadata",
-      "bytes": 359
+      "bytes": 359,
+      "sha256": "1128fef779f40452d0dd2b27b3974175fb4a341c3418d953d8b33540575117fd"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/graphics/help.data.gz",
-      "bytes": 562908
+      "bytes": 562908,
+      "sha256": "8522582e2b3a3577c24f174bcccc7d75bebb9128131157d7b3712d28255baf71"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/graphics/help.js.metadata",
-      "bytes": 720
+      "bytes": 720,
+      "sha256": "f389834ad81b4db9bb4e8e89c254bb8c886da36b5c458cd661a1a4d5710809f1"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/graphics/html.data.gz",
-      "bytes": 2982
+      "bytes": 2982,
+      "sha256": "99d1c6a3224b704237d427057549a1a9b863033bbf2e8c086fc6e200553621bb"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/graphics/html.js.metadata",
-      "bytes": 151
+      "bytes": 151,
+      "sha256": "bb82dd2024e800abf3d390c3f21f44e189ebe3df567a0de974e95206f7edef7d"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grid/help.data.gz",
-      "bytes": 341560
+      "bytes": 341560,
+      "sha256": "3d8a87877c069f47a6ffc590043975e26d26b112addd7bcabdcab576f7a9c74e"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grid/help.js.metadata",
-      "bytes": 308
+      "bytes": 308,
+      "sha256": "66a56f27efa45f11c3fe20b63215761527a18014531159bc7d1af159d9bf0a87"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grid/html.data.gz",
-      "bytes": 4928
+      "bytes": 4928,
+      "sha256": "8ab236a697ca624dd74b1fce1eab0852e8d6fcab4e441ec09fe57e56849b77d1"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/grid/html.js.metadata",
-      "bytes": 151
+      "bytes": 151,
+      "sha256": "3d28487a22ea049d3c6329a9cebb0d310e3d4206647a517cb40ab21bc5662e1d"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/methods/help.data.gz",
-      "bytes": 559755
+      "bytes": 559755,
+      "sha256": "d727dc6b7422dedf18caf153144c78b6e2966d7a5a42c4c9f6f6cf16a8a0683e"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/methods/help.js.metadata",
-      "bytes": 318
+      "bytes": 318,
+      "sha256": "f8803bd5a9ceffbdf2857cba27d965f380a97801f97b51d300ac39ee239c5056"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/methods/html.data.gz",
-      "bytes": 5267
+      "bytes": 5267,
+      "sha256": "12cbbb4eb9d878d130a0713e1ad24a4a5a1dbe5b623347a838c4d9d7f334b0bd"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/methods/html.js.metadata",
-      "bytes": 151
+      "bytes": 151,
+      "sha256": "a63e96038c66042226f488d3ac8f54cbea74bda22febf593965e2bede552c73a"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/parallel.data.gz",
-      "bytes": 349042
+      "bytes": 349042,
+      "sha256": "25256757440bb6dd77b2cbdd5668b85aed5d2b8ebae58d039408f1d8b4fe5b95"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/parallel.js.metadata",
-      "bytes": 1238
+      "bytes": 1238,
+      "sha256": "82f79a072159d48f4c9d2b984ee7660c7c15327d14534d9e89b3271268b0a768"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/splines/help.data.gz",
-      "bytes": 44264
+      "bytes": 44264,
+      "sha256": "019301cba92c42cb85448f37a081e09f13684a2d62bc28122b6d2832a8666da5"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/splines/help.js.metadata",
-      "bytes": 302
+      "bytes": 302,
+      "sha256": "6c6e828305347cb9bc7c1cba42a2d4a60509f95f4375919b8d7143b602b4e862"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/splines/html.data.gz",
-      "bytes": 1550
+      "bytes": 1550,
+      "sha256": "1f35815050129826f06bb9c71377ef98745648e028702ed326d56dee2288c2df"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/splines/html.js.metadata",
-      "bytes": 147
+      "bytes": 147,
+      "sha256": "55921a910bdb3d7cb2d2db24dff9e57ddbe4d5670fc54c3ce0c70da6112d6cef"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/stats/demo.data.gz",
-      "bytes": 4061
+      "bytes": 4061,
+      "sha256": "761adcd4b49ca859057e1a96774308a5fd3b6f35e00d2dac6d17731ee91f5050"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/stats/demo.js.metadata",
-      "bytes": 241
+      "bytes": 241,
+      "sha256": "7e537450a6855a02f5491cf22f48abed526bb1d4d2fd15d3e34725ab3667db5f"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/stats/help.data.gz",
-      "bytes": 1843548
+      "bytes": 1843548,
+      "sha256": "8fa48d1e3803dd508e24bde959313a24fa91ebe73f779272c6aca31ed6134a33"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/stats/help.js.metadata",
-      "bytes": 316
+      "bytes": 316,
+      "sha256": "84619108c7ab023343c1e5e95d5979fccf426e43080c7fd90672f44ab3653ea0"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/stats/html.data.gz",
-      "bytes": 11358
+      "bytes": 11358,
+      "sha256": "4e14ef0067001e22cb25167c7f51cf665ce89f16fe6d80c1c4121075bff5520a"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/stats/html.js.metadata",
-      "bytes": 151
+      "bytes": 151,
+      "sha256": "9ea60d805483f4ebfb197957da1c7c360a00c92d4b33fcc7fda42f9ee626cd7d"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/stats4/help.data.gz",
-      "bytes": 37560
+      "bytes": 37560,
+      "sha256": "8a18b51cbfe3991f3f33be831bc7a7b2676f62c4a012bff73450afde182b159f"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/stats4/help.js.metadata",
-      "bytes": 304
+      "bytes": 304,
+      "sha256": "a03f6116d3f6703f88f9209864709946362e51cbf328c14d3c9c7e3d39a40d4e"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/stats4/html.data.gz",
-      "bytes": 1522
+      "bytes": 1522,
+      "sha256": "eab7a939a8d57c5792e98a13b94222d29b43f2fbc4e0b4d449e6fad96f401da5"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/stats4/html.js.metadata",
-      "bytes": 147
+      "bytes": 147,
+      "sha256": "c34ccf9f0de1ad19d6aea15b3f56e6f65c8967bd8c9a9e39461788daa5c1d15e"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/tcltk.data.gz",
-      "bytes": 132160
+      "bytes": 132160,
+      "sha256": "fd62d4cf44534ca784cbc0ab26e65eb1c6f882269709fced5a1ac459f8550026"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/tcltk.js.metadata",
-      "bytes": 2019
+      "bytes": 2019,
+      "sha256": "785dc003a43233094a6845f5804fa097fb680ccae0c0aad6fd0784e9582f0ab9"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/tools/help.data.gz",
-      "bytes": 324132
+      "bytes": 324132,
+      "sha256": "4ad0e607507c22a91860857865192a7b560270168f3be8c75d9394c5689364d8"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/tools/help.js.metadata",
-      "bytes": 306
+      "bytes": 306,
+      "sha256": "761f3e2cd8ecc194410a039da7fa7565a68b17c8b271306e927c0f8b4d0eef27"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/tools/html.data.gz",
-      "bytes": 4307
+      "bytes": 4307,
+      "sha256": "13242d7e18ab7412609925428c651e07615146a78137e1bc7f117d1add62e47f"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/tools/html.js.metadata",
-      "bytes": 151
+      "bytes": 151,
+      "sha256": "d93471df33f8c83582f3c217fdaad9c0947996bc87c19e2261828e01bcb668c3"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/tools/misc.data.gz",
-      "bytes": 3724
+      "bytes": 3724,
+      "sha256": "7042f04844026fbc281f4789abf8ac5bf0751d1ce70bb602a8db8d60f2ac68cf"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/tools/misc.js.metadata",
-      "bytes": 142
+      "bytes": 142,
+      "sha256": "5c6bd36201d2f620052f3ba437224496ea98919a8a05dcee6b44aa99547eb5a6"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/translations.data.gz",
-      "bytes": 3061528
+      "bytes": 3061528,
+      "sha256": "c8cac5071b8691cb1c960389b370b5007c5b8df752d98a5860bce505c234b9c2"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/translations.js.metadata",
-      "bytes": 35184
+      "bytes": 35184,
+      "sha256": "f62b1fa37f7cdff9aa0c9b7046366254411b7df6bb35d2017cbb531fd6ee3d4a"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/translations/DESCRIPTION",
-      "bytes": 238
+      "bytes": 238,
+      "sha256": "ba7da3ac60466f5f466c4f706f50bcafbb924f94b0888d333bb410451b41afd2"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/utils/help.data.gz",
-      "bytes": 894372
+      "bytes": 894372,
+      "sha256": "be06c8a1d69d4b0b82b09afc24ade14fe0afd68053c19f87af1f6d17d9842cbf"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/utils/help.js.metadata",
-      "bytes": 310
+      "bytes": 310,
+      "sha256": "7bbdaa8dd24135fa73ec05ef1120e94f50bca25fcef31244a3ba3d51dd0c4478"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/utils/html.data.gz",
-      "bytes": 7240
+      "bytes": 7240,
+      "sha256": "33f6fe57dad92319af190f3ea06ee79104e850c86043cc45c11c7513de9cc066"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/utils/html.js.metadata",
-      "bytes": 151
+      "bytes": 151,
+      "sha256": "9237b38d0bb9cd04c6f305f9b69b7d06b2dcaf982050e3d3e374e6cdfe0706a1"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/utils/misc.data.gz",
-      "bytes": 161
+      "bytes": 161,
+      "sha256": "33ddc6d1a7b594c7d0824dc12aa15cfce859b66b9d7134c228ee349b48027b56"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/utils/misc.js.metadata",
-      "bytes": 142
+      "bytes": 142,
+      "sha256": "7e248a6c0ce276772fe22eb83d49128393be9e674e322ab0ce57905e83e6709b"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/webr/help.data.gz",
-      "bytes": 57381
+      "bytes": 57381,
+      "sha256": "13f814b4ca4b8ad4ae07f43a5e09ed90274233d8758a3c5ec0e6dac3ba56799c"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/webr/help.js.metadata",
-      "bytes": 357
+      "bytes": 357,
+      "sha256": "bbec147dbb13908d360940507e158e7507cda52f169f365821dcdc3414513794"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/webr/html.data.gz",
-      "bytes": 1696
+      "bytes": 1696,
+      "sha256": "e16b557a8417ec2bfb11c3a03ab8b28638464217877ad6bdd26f45263a14cb79"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/library/webr/html.js.metadata",
-      "bytes": 147
+      "bytes": 147,
+      "sha256": "820fc44428d2f719881725341ba13650436e989c53191e2d6da1f2493f7ea131"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/share.data.gz",
-      "bytes": 380353
+      "bytes": 380353,
+      "sha256": "79258e504395be06aefa3d9ed482bcd9c26efb27791a243f851ead183ac28d41"
     },
     {
       "path": "shinylive/webr/vfs/usr/lib/R/share.js.metadata",
-      "bytes": 46073
+      "bytes": 46073,
+      "sha256": "3ccaab3b787ae8e377bb56fad19764772e6f1ddf90d47f10fbaef58921c7e9e2"
     },
     {
       "path": "shinylive/webr/vfs/usr/share/fonts/NotoSans-Bold.ttf",
-      "bytes": 432376
+      "bytes": 432376,
+      "sha256": "87cb2d84472a7d66da659ee47b6cdb9552326e8c128245231f191b6ac72529d9"
     },
     {
       "path": "shinylive/webr/vfs/usr/share/fonts/NotoSans-BoldItalic.ttf",
-      "bytes": 441936
+      "bytes": 441936,
+      "sha256": "3d367743f371f28671d2764e911a53d7c20ec9b6aa8791d059e7090389fc52a5"
     },
     {
       "path": "shinylive/webr/vfs/usr/share/fonts/NotoSans-Italic.ttf",
-      "bytes": 446880
+      "bytes": 446880,
+      "sha256": "678288f868807d4d64a6f3b51466871d117d915780381ce9d0ed4b3bcbd06d37"
     },
     {
       "path": "shinylive/webr/vfs/usr/share/fonts/NotoSans-Regular.ttf",
-      "bytes": 431364
+      "bytes": 431364,
+      "sha256": "f3961a9cde016d41a4879aecda1474d3a36d6bf54fa0e4643de029cc2248b0e8"
     },
     {
       "path": "shinylive/webr/vfs/usr/share/fonts/NotoSansMono-Bold.ttf",
-      "bytes": 387484
+      "bytes": 387484,
+      "sha256": "1100772b2f79c102402a1011df5e2226517d0f40ac553a25fb12fdbad8c11b85"
     },
     {
       "path": "shinylive/webr/vfs/usr/share/fonts/NotoSansMono-Regular.ttf",
-      "bytes": 388660
+      "bytes": 388660,
+      "sha256": "87f8ce0522a6c99b743ee5fc75b4073cfdd575639119672828b7b9944b65b4f4"
     },
     {
       "path": "shinylive/webr/vfs/usr/share/fonts/NotoSerif-Bold.ttf",
-      "bytes": 481892
+      "bytes": 481892,
+      "sha256": "24ad531e6b05ddad8c3d89572d2c93eb86a6b74e652ce7ee3c3e171de68e84c3"
     },
     {
       "path": "shinylive/webr/vfs/usr/share/fonts/NotoSerif-BoldItalic.ttf",
-      "bytes": 513280
+      "bytes": 513280,
+      "sha256": "1bc4f86502eaa368718f6192bee022ea9a703d5af1c18b7d291212657b63074a"
     },
     {
       "path": "shinylive/webr/vfs/usr/share/fonts/NotoSerif-Italic.ttf",
-      "bytes": 513428
+      "bytes": 513428,
+      "sha256": "c4b3c971741ecdb40f5a443bce754e8fe91efe761b6ea10c92be7c3597cdadc4"
     },
     {
       "path": "shinylive/webr/vfs/usr/share/fonts/NotoSerif-Regular.ttf",
-      "bytes": 482540
+      "bytes": 482540,
+      "sha256": "a15cfbbc1539d707115111d672d590a3d70d4f74b4c0a315956da20ae19a14e1"
     },
     {
       "path": "shinylive/webr/vfs/usr/share/gdal.data.gz",
-      "bytes": 348461
+      "bytes": 348461,
+      "sha256": "8adcaf12f15dabb964cb3363defa02bdc9e730a17b10460946944885bcf699af"
     },
     {
       "path": "shinylive/webr/vfs/usr/share/gdal.js.metadata",
-      "bytes": 10206
+      "bytes": 10206,
+      "sha256": "de403ded38013ab57931a862d14bcdc33b09997c70de1587ec6719f94360ab25"
     },
     {
       "path": "shinylive/webr/vfs/usr/share/proj.data.gz",
-      "bytes": 1705325
+      "bytes": 1705325,
+      "sha256": "14e3893991c408324d43605abbe6c4cae18607fe27655e78654bec4565799e13"
     },
     {
       "path": "shinylive/webr/vfs/usr/share/proj.js.metadata",
-      "bytes": 857
+      "bytes": 857,
+      "sha256": "adc4c33a8c963b5059402a2132c59811016cc9c48286b6bd43e68b347a5f4c0c"
     },
     {
       "path": "shinylive/webr/vfs/usr/share/udunits.data.gz",
-      "bytes": 16775
+      "bytes": 16775,
+      "sha256": "fc1de0c9cb5c827fef22ed148ffc28eab70a99d3cc9aa9990e37aaf38e5c1757"
     },
     {
       "path": "shinylive/webr/vfs/usr/share/udunits.js.metadata",
-      "bytes": 424
+      "bytes": 424,
+      "sha256": "9f8ac349f1d68c23e4d2a4790e328ab3ecc38cd84ef993592170b7d19ef1b6a6"
     },
     {
       "path": "shinylive/webr/vfs/var/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le32d8.cache-9",
-      "bytes": 16008
+      "bytes": 16008,
+      "sha256": "48cd35d8c3d7a4456f05bbf3c10bac83de082d354b2ec02c8a80e325ac3f0839"
     },
     {
       "path": "shinylive/webr/vfs/var/cache/fontconfig/CACHEDIR.TAG",
-      "bytes": 200
+      "bytes": 200,
+      "sha256": "05e7633fb31bf1f6f8d89020c16b9f24587fdf7638e951c9745b192f5fc3b682"
     },
     {
       "path": "shinylive/webr/webr-worker.js",
-      "bytes": 134029
+      "bytes": 134029,
+      "sha256": "c64282f5e15b51ef473e26548203313f868208c8988b2c7bdfc22c5730de418b"
     }
   ]
 }
