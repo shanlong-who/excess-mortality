@@ -1836,9 +1836,9 @@ function asgiToRes(res, body) {
 }
 
 // src/shinylive-sw.ts
-var useCaching = false;
-var cacheName = "::shinyliveServiceworker";
-var version = "v10";
+var useCaching = true;
+var cacheName = "::exmort:" + self.registration.scope;
+var version = "06b1cedf1ec6";
 function addCoiHeaders(resp) {
   const headers = new Headers(resp.headers);
   headers.set("Cross-Origin-Embedder-Policy", "require-corp");
@@ -1871,7 +1871,7 @@ self.addEventListener("activate", function(event) {
       const keys = await caches.keys();
       return Promise.all(
         keys.filter(function(key) {
-          return key.indexOf(version + cacheName) !== 0;
+          return key.endsWith(cacheName) && key !== version + cacheName;
         }).map(function(key) {
           return caches.delete(key);
         })
@@ -1947,14 +1947,15 @@ self.addEventListener("fetch", function(event) {
   if (useCaching) {
     event.respondWith(
       (async () => {
-        const cachedResponse = await caches.match(request);
+        const cache = await caches.open(version + cacheName);
+        const cachedResponse = await cache.match(request);
         if (cachedResponse) {
           return cachedResponse;
         }
         try {
           const networkResponse = addCoiHeaders(await fetch(request));
           const baseUrl = self.location.origin + dirname(self.location.pathname);
-          if (request.url.startsWith(baseUrl + "/shinylive/") || request.url === baseUrl + "/favicon.ico") {
+          if (networkResponse.ok && (request.url.startsWith(baseUrl + "/shinylive/") || request.url === baseUrl + "/app.json")) {
             const cache = await caches.open(version + cacheName);
             await cache.put(request, networkResponse.clone());
           }

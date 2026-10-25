@@ -3,22 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shiny App</title>
-    <script type="module">
-      const pageUrl = new URL(window.location.href);
-      if (pageUrl.searchParams.get("coi") !== "1") {
-        pageUrl.searchParams.set("coi", "1");
-        window.location.replace(pageUrl.href);
-      } else {
-        await import("./shinylive/load-shinylive-sw.js?v=coi-1");
-        const { runExportedApp } = await import("./shinylive/shinylive.js");
-        runExportedApp({ id: "root", appEngine: "r", relPath: "" });
-      }
-    </script>
+    <title>Excess Mortality Calculator</title>
     <link rel="stylesheet" href="./shinylive/style-resets.css" />
     <link rel="stylesheet" href="./shinylive/shinylive.css" />
+    <style>
+      #startup { position: fixed; inset: 0; z-index: 10000; display: grid; place-items: center; background: #f4f7fa; color: #183449; font: 16px/1.5 system-ui, sans-serif; }
+      #startup section { box-sizing: border-box; width: min(90vw, 540px); padding: 32px; border: 1px solid #dce5ec; border-radius: 12px; background: white; }
+      #startup h1 { margin: 0 0 18px; font-size: 24px; line-height: 1.25; }
+      #startup p { margin: 12px 0; }
+      #startup progress { width: 100%; height: 18px; accent-color: #156ca2; }
+      #startup-detail { color: #456175; font-size: 14px; overflow-wrap: anywhere; }
+      #startup button { margin-top: 12px; padding: 10px 20px; border: 0; border-radius: 6px; background: #156ca2; color: white; cursor: pointer; font: inherit; }
+    </style>
+    <script type="module" src="./exmort-startup.js?v=06b1cedf1ec6"></script>
   </head>
   <body>
     <div style="height: 100vh; width: 100vw" id="root"></div>
+    <div id="startup">
+      <section aria-labelledby="startup-title">
+        <h1 id="startup-title">Excess Mortality Calculator</h1>
+        <p id="startup-status" role="status" aria-live="polite">Preparing the calculator...</p>
+        <progress id="startup-progress" max="100" aria-label="Download progress"></progress>
+        <p id="startup-detail">The first visit downloads the app and its R packages. Saved files are reused on later visits.</p>
+        <button id="startup-retry" type="button" hidden>Retry</button>
+        <noscript>JavaScript must be enabled to run this application.</noscript>
+      </section>
+    </div>
   </body>
 </html>
