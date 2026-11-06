@@ -1838,7 +1838,7 @@ function asgiToRes(res, body) {
 // src/shinylive-sw.ts
 var useCaching = true;
 var cacheName = "::exmort:" + self.registration.scope;
-var version = "250b5decec7e";
+var version = "fb02a5c65cf0";
 function addCoiHeaders(resp) {
   const headers = new Headers(resp.headers);
   headers.set("Cross-Origin-Embedder-Policy", "require-corp");

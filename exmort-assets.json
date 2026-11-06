@@ -1,10 +1,10 @@
 {
-  "version": "250b5decec7e",
+  "version": "fb02a5c65cf0",
   "assets": [
     {
       "path": "app.json",
-      "bytes": 5205896,
-      "sha256": "fde86d35b52a641d3da0409cef535b97d5d2039a6e630fa18f528cd064e33ed1"
+      "bytes": 5268053,
+      "sha256": "5a238e32eb38b0fdbbea63e6050132cdcb899dc64b14166ec167f9c47a55371c"
     },
     {
       "path": "shinylive/chunk-JPKZOFRI.js",
