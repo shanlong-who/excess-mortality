@@ -1941,6 +1941,15 @@ self.addEventListener("fetch", function(event) {
     );
     return;
   }
+  if (useCaching && request.method === "HEAD" && request.url.startsWith(new URL("shinylive/webr/vfs/", self.registration.scope).href)) {
+    event.respondWith((async () => {
+      const cache = await caches.open(version + cacheName);
+      const file = await cache.match(request.url);
+      if (file) return new Response(null, {status: file.status, headers: file.headers});
+      return fetch(request);
+    })());
+    return;
+  }
   if (request.method !== "GET") {
     return;
   }
